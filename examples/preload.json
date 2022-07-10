@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/http-preload/manifest/preload-v1.schema.json",
+  "$schema": "https://raw.githubusercontent.com/http-preload/manifest/master/preload-v1.schema.json",
   "manifestVersion": 1,
   "conditions": {
     "supportsModulepreload": "(userAgentData, headers) => userAgentData.brands.some((e)=>e.brand==='Chromium'&&parseInt(e.version)>=66)"

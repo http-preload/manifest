@@ -100,10 +100,10 @@ You might need to set `Cache-Control` max-age to at least 3 seconds for resource
 
 | Feature \\ Implementation | preload-middleware | preload-servlet-filter | preload-njs-filter |
 | ------------------------- | ------------------ | ---------------------- | ------------------ |
-| Simple manifest           | Y                  | Y                      | Y                  |
+| Basic manifest support    | Y                  | Y                      | Y                  |
 | Condition expressions     | Y                  | Y [^1]                 | Y [^2]             |
-| 103 early hints           | Y (http/1.1, h2)   | Y (http/1.1, h2)       | N [^3]             |
-| watch file & hot-reload   | Y                  | Y                      | N [^4]             |
+| Status 103 early hints    | Y (http/1.1, h2)   | Y (http/1.1, h2)       | N [^3]             |
+| File watch & hot-reload   | Y                  | Y                      | N [^4]             |
 
 
 
@@ -111,6 +111,6 @@ You might need to set `Cache-Control` max-age to at least 3 seconds for resource
 
 [^1]: Requires a JavaScript Engine like GraalVM
 [^2]: Requires custom build of njs
-[^3]: Due to lack of build-in file watch API
-[^4]: Due to lack of public API to send 1xx status
+[^3]: Due to njs lacks of public API to send 1xx status
+[^4]: Due to njs lacks of built-in file watch API
 

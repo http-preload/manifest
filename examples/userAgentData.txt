@@ -1,0 +1,79 @@
+====== Chrome 103 ======
+
+{
+  "brands": [
+    {
+      "brand": ".Not/A)Brand",
+      "version": "99"
+    },
+    {
+      "brand": "Google Chrome",
+      "version": "103"
+    },
+    {
+      "brand": "Chromium",
+      "version": "103"
+    }
+  ],
+  "mobile": false,
+  "platform": "chromeOS"
+}
+
+
+====== Firefox 102 ======
+
+{
+  "brands": [
+    {
+      "brand": ".Not;A)Brand",
+      "version": "99"
+    },
+    {
+      "brand": "Firefox",
+      "version": "102"
+    },
+    {
+      "brand": "Mozilla Firefox",
+      "version": "102"
+    }
+  ],
+  "mobile": false,
+  "platform": "Windows"
+}
+
+
+====== Safari 15.4 ======
+
+{
+  "brands": [
+    {
+      "brand": ".Not;A)Brand",
+      "version": "99"
+    },
+    {
+      "brand": "Safari",
+      "version": "15"
+    },
+    {
+      "brand": "Apple Safari",
+      "version": "15"
+    }
+  ],
+  "mobile": false,
+  "platform": "macOS"
+}
+
+
+====== curl 7.84 ======
+
+{
+  "brands": [
+    {
+      "brand": ".Not;A)Brand",
+      "version": "99"
+    }
+  ],
+  "mobile": false,
+  "platform": "Unkonwn"
+}
+

@@ -1,0 +1,59 @@
+====== Chrome 103 ======
+
+:method: GET
+:authority: 127.0.0.1:8443
+:scheme: https
+:path: /
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "chromeOS"
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (X11; CrOS armv7l 14588.98.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+
+
+====== Firefox 102 ======
+
+:method: GET
+:path: /
+:authority: 127.0.0.1:8443
+:scheme: https
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0 
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+accept-language: en-US,en;q=0.5
+accept-encoding: gzip, deflate, br
+upgrade-insecure-requests: 1
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+te: trailers
+
+
+====== Safari 15.4 ======
+
+:method: GET
+:path: /
+:scheme: https
+:authority: 127.0.0.1:8443
+accept-encoding: deflate, gzip, br
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+accept-language: zh-CN
+
+
+====== curl 7.84 ======
+
+:method: GET
+:path: /
+:scheme: https
+:authority: 172.18.0.1:8443
+user-agent: curl/7.84.0-DEV
+accept: */*
+
